@@ -2,7 +2,7 @@
 
 **PPO-based quadrotor position-control experiments comparing direct rotor actuation with collective-thrust and body-rate (CTBR) policy outputs.**
 
-This repository is part of the [Robust Goal-Directed Aerial Manipulation project](https://github.com/1shit4/aerial-manipulation-rl-control). A key question in that research was **what level of control command a reinforcement-learning policy should generate**: individual motor commands or higher-level references that can be tracked by a separate flight controller.
+This repository is part of the [Robust Goal-Directed Aerial Manipulation project](https://github.com/ishita-chaudhary/aerial-manipulation-rl-control). A key question in that research was **what level of control command a reinforcement-learning policy should generate**: individual motor commands or higher-level references that can be tracked by a separate flight controller.
 
 The Genesis experiments investigate this question using goal-conditioned quadrotor hovering and position control, with additional variants for reward design, observation noise, and model/actuator perturbations.
 
@@ -72,10 +72,10 @@ The checkpoint number must match a model saved during training. Equivalent `hove
 
 ## Related Repositories
 
-- **[Aerial Manipulation — Project Overview](https://github.com/1shit4/aerial-manipulation-rl-control):** overall research objective and other experimental implementations.
+- **[Aerial Manipulation — Project Overview](https://github.com/ishita-chaudhary/aerial-manipulation-rl-control):** overall research objective and other experimental implementations.
 - **[Isaac Lab quadrotor RL](https://github.com/rocon-rrc/quadcopter_issaclab-rl):** related collaborative quadrotor-learning experiments.
-- **[Flightmare RL Training](https://github.com/1shit4/flightmare):** quadrotor-policy training in Flightmare.
-- **[Flightmare Policy Inference in PX4–Gazebo](https://github.com/1shit4/RLQuadcopterControlFlightmare):** a separate sim-to-sim inference pipeline.
+- **[Flightmare RL Training](https://github.com/ishita-chaudhary/flightmare):** quadrotor-policy training in Flightmare.
+- **[Flightmare Policy Inference in PX4–Gazebo](https://github.com/ishita-chaudhary/RLQuadcopterControlFlightmare):** a separate sim-to-sim inference pipeline.
 
 The simulation and RL components build on the [Genesis physics engine](https://github.com/Genesis-Embodied-AI/Genesis), [RSL-RL](https://github.com/leggedrobotics/rsl_rl), and example code from [GenesisDroneEnv](https://github.com/KafuuChikai/GenesisDroneEnv). Credit for those upstream projects remains with their original authors.
 
